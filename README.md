@@ -1,6 +1,6 @@
-# MyApp2
+# Installation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+npm install exceljs
 
 ## Development server
 
