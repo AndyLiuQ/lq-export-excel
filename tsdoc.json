@@ -1,0 +1,36 @@
+{
+	"tags":
+	{
+		"allowUnknownTags" : false
+	},
+	"plugins":[
+		 "plugins/markdown"
+		 ,"node_modules/tsdoc/src/TSDoc.js"
+	],
+	"opts":
+	{
+		"recurse"	:"true"
+	},
+	"templates" : {
+		"cleverLinks"     : false,
+		"monospaceLinks"  : false
+	},
+	"source":
+	{
+		"includePattern": "(\\.d)?\\.ts$"
+	},
+	"markdown"  : {
+		"parser"   : "gfm",
+		"hardwrap" : true
+	},
+	"tsdoc":{
+		"source"		:"/svn/ARIDO/angular_demo1/my-app2/src/common/utils/export-excel-util.ts",
+		"destination"	:"/svn/ARIDO/angular_demo1/my-app2/docs",
+		"tutorials"		:"",
+		"systemName"	: "my-app2",
+		"footer"		: "",
+		"copyright"		: "my-app2 Copyright © 2020 Administrator.",
+		"outputSourceFiles" : true,
+		"commentsOnly": true
+	}
+}

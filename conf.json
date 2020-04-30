@@ -1,0 +1,17 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "source": {
+        "include": [ "/svn/ARIDO/angular_demo1/my-app2/src/common" ],
+        "exclude": [  ],
+        "includePattern": ".+\\.ts(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    }
+}
